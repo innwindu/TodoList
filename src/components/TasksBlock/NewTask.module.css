@@ -1,0 +1,67 @@
+.container {
+  border: 2px solid #e7e9ea;
+  width: 1200px;
+  height: 60px;
+  color: #434549;
+  margin: 0 auto 24px;
+  padding-top: 24px;
+}
+
+.buttonContainer {
+  display: inline-block;
+}
+
+.textContainer {
+  padding-left: 24px;
+  width: 956px;
+  display: inline-block;
+}
+
+.cheked {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/checked.png);
+  background-size: cover;
+  margin-left: 24px;
+  border: none;
+  border-radius: 6px;
+}
+
+.uncheked {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/unchecked.png);
+  background-size: cover;
+  margin-left: 24px;
+  border: none;
+  border-radius: 6px;
+}
+
+.edit {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/pencil.png);
+  background-size: cover;
+  margin-left: 24px;
+  border: none;
+}
+
+.delete {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/basket.png);
+  background-size: cover;
+  margin-left: 24px;
+  border: none;
+}
+
+.active {
+  margin-left: 20px;
+}
+
+.completed {
+  margin-left: 20px;
+  color: red;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
